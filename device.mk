@@ -459,6 +459,10 @@ TARGET_COMMON_QTI_COMPONENTS := \
 
 TARGET_NFC_SKU := pro
 
+# RCS
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.rcs.supported=1
+
 # RmNet Data
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.rmnet.data.enable=true \
