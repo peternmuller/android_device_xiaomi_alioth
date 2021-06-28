@@ -196,6 +196,9 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     debug.hwui.skia_tracing_enabled=false \
     debug.hwui.skia_use_perfetto_track_events=false
 
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.config.avoid_gfx_accel=true
+
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/display/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
