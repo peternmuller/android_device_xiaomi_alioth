@@ -1038,8 +1038,6 @@ vendor/lib/libssccalapi.so|63dd63d32fb993d2ef9f4e3ac3ecf5bc8c435afc
 vendor/lib/libultrasound.so|9e286dc7fc5efe7c9916ef2a9cf5611d2486c3f2
 vendor/lib/sensors.mius.proximity.so|22b94659a3ebb751aafbebe4e12059da9e32bf8f
 vendor/lib/sensors.ssc.so|2a6f83c35864fe61a25659ebe2d888969b292678
-vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so|733a5b8861bb6eb1285bb8982992531c94800997
-vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
 vendor/lib64/libnotifyaudiohal.so|c6d53e28c977f92e974b85dfb532734b42d44231
 vendor/lib64/libsensorcal.so|6c7275b7fd887475e3e090284ab56d115ea1ecc1
 vendor/lib64/libsensorslog.so|8df3d0d6ccf65d88b98788fd65bd1918c022a264
