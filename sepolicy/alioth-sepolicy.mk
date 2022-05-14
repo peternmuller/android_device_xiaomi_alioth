@@ -19,6 +19,7 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
 # Xiaomi Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/audio \
+    device/xiaomi/alioth/sepolicy/vendor/xiaomi/aware \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/bluetooth \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/battery \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/camera \
