@@ -91,7 +91,8 @@ PRODUCT_ODM_PROPERTIES += \
     vendor.audio.feature.spkr_prot.enable=false \
     vendor.audio.hal.output.suspend.supported=false \
     vendor.audio.offload.multiple.enabled=true \
-    vendor.audio.offload.track.enable=false
+    vendor.audio.offload.track.enable=false \
+    vendor.audio.offload.buffer.size.kb=256
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/mixer_paths_overlay_static.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_overlay_static.xml \
