@@ -352,6 +352,10 @@ PRODUCT_PACKAGES += \
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Phantom process monitoring
+PRODUCT_PRODUCT_PROPERTIES += \
+    sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
 # Platform
 TARGET_BOARD_PLATFORM := kona
 
