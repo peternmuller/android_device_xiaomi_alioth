@@ -211,7 +211,8 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.use_content_detection_for_refresh_rate=true \
     debug.hwui.skia_tracing_enabled=false \
     debug.hwui.skia_use_perfetto_track_events=false \
-    debug.sf.treat_170m_as_sRGB=1
+    debug.sf.treat_170m_as_sRGB=1 \
+    debug.sf.hwc_hotplug_error_via_neg_vsync=1
 
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.config.avoid_gfx_accel=true
