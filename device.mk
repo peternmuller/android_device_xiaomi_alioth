@@ -281,6 +281,10 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.crypto.volume.filenames_mode="aes-256-cts" \
     ro.hardware.keystore_desede=true
 
+# limit DPP downscale ratio
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    vendor.hwc.dpp.downscale=4
+
 # Lineage Health
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
