@@ -13,6 +13,7 @@
 # limitations under the License.
 
 DEVICE_PATH := device/xiaomi/alioth
+HARDWARE_PATH := hardware/xiaomi
 
 # A/B
 AB_OTA_UPDATER := true
@@ -79,7 +80,8 @@ TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
-    $(DEVICE_PATH)/configs/vintf/xiaomi_vendor_framework_compatibility_matrix.xml
+    $(DEVICE_PATH)/configs/vintf/xiaomi_vendor_framework_compatibility_matrix.xml \
+    $(HARDWARE_PATH)/vintf/xiaomi_framework_compatibility_matrix.xml
 
 DEVICE_MANIFEST_FILE += \
     $(DEVICE_PATH)/configs/vintf/manifest.xml \
