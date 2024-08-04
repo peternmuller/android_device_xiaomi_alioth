@@ -267,7 +267,7 @@ vendor/etc/camera/LDC_PACKDATA_VENDORID_0x03.bin|021ee7ac573f35ec48fcd3e6a8b686e
 vendor/etc/camera/LDC_PACKDATA_VENDORID_0x07.bin|73ce47889e10e16dff6cb9cac2923cc853abf245
 vendor/etc/camera/ai_enhance.dlc|a89c006700150fcc7fff69f5712d1617f6fd45d8
 vendor/etc/camera/beauty_ui9_intelligent_params.config|a9cf088efb6f656ae369a53e96808ef673e27c67
-vendor/etc/camera/bokehParams.json|d4128b1b5278fcc7a0d3096881fb191db06c7267
+vendor/etc/camera/bokehParams.json|874bdc989c6e3d4e489d714f3ea971eddc32d000
 vendor/etc/camera/com.xiaomi.dcal.wu.fake|cfda91b3c946c09ce3416906a0430b69160e3ca8
 vendor/etc/camera/com.xiaomi.dcal.wu.golden|cfda91b3c946c09ce3416906a0430b69160e3ca8
 vendor/etc/camera/det_quantize.dlc|ffcd172c0f51e89bfd1538951a6c84bf8abea684
@@ -741,7 +741,7 @@ vendor/lib64/vendor.display.postproc@1.0.so
 vendor/etc/default.lm|ccf299a48b5637d96c1033d56b5094d8dd7767dd
 vendor/etc/ltm_config_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml|06f8f68a6072cbb309fd60b6c058636e65eb6387
 vendor/etc/mdss_dsi_k11a_38_08_0a_dsc_cmd_mi.xml|b6156e3b04f8bfe5750401cf89c62ed8cf07df38
-vendor/etc/tunings.txt|49dbb961af0131f28a65d6e05b245145f92f5f1e
+vendor/etc/tunings.txt|196b4cc4410dd4c521ace955a225b4c8b47268a4
 
 # FASTCV
 vendor/lib/rfsa/adsp/libapps_mem_heap.so
@@ -1173,8 +1173,8 @@ vendor/etc/sensors/config/sns_smd.json|52b4f131fd184ba15338401377e5fa5ddbc665a7
 vendor/etc/sensors/config/sns_tilt.json|7ad2f275d6272976135aeabf4b39a84b03717513
 vendor/etc/sensors/config/sns_tilt_sw_disabled.json|2761c1402c90ae96dd1ebad50f8cfe802ac79a99
 vendor/etc/sensors/config/sns_tilt_to_wake.json|e2a231e804a95ce519d3af0cd3a8fb0d5d7883ef
-vendor/etc/sensors/config/sx932x_0.json|29c135d5a59425485e5f283e6e7ca7716472181b
-vendor/etc/sensors/config/sx932x_1.json|1eab13c492d8bbd5f6e042d290b8a7b04e1a94c0
+vendor/etc/sensors/config/sx932x_0.json|f4597bfa2ea8757a348018e93767cd387480b2e5
+vendor/etc/sensors/config/sx932x_1.json|bff36d0de29c6af4ce880be82e455856260e6fef
 vendor/etc/sensors/config/tcs3701.json|9b921156bfa4d26c866b09934798b7e0f6bd4bb8
 vendor/etc/sensors/judge_calibrated.json|0df927c4766c3a54267bab638787d564c17f8d85
 vendor/etc/sensors/sns_reg_config|cea8c9f674c039de77bb7f743d8a9122ab8b6897
