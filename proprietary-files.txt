@@ -110,7 +110,7 @@ vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb|59c3fa0264997ec71f5920ea815f100
 vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb|374dd9c6a64781c1768177411506cd596cc0063f
 vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp|f52ee13837b2f8a048db39a96fd8e466fe7f4971
 vendor/etc/acdbdata/adsp_avs_config.acdb|51f049b97e1d0b56faa1cf3713682899f7522c1a
-vendor/lib/hw/audio.primary.kona.so|e809a12d17991a4aa37afa5b01f9a9eacccd3657
+vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.alioth.so;FIX_SONAME|7a028dea19463661429e2bbc3307cee72b1610bf
 vendor/lib/hw/sound_trigger.primary.kona.so|a5baa2d64c31b1dd932bc708c62b70cf6678a651
 vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so|ee89b7cb4e0476688ac8c1a669dfe89c660b1a76
 vendor/lib/vndk/libxlog.so|dad5169deb3296ca1ff4d7e9546e4229cda277b9
@@ -124,7 +124,7 @@ vendor/lib/libOmxEvrcDec.so|827e34f3068a733c39772d46f3757e42e21975c9
 vendor/lib/libOmxG711Dec.so|92bf8d3d84c6fb86584c880128b8e46b9faa7797
 vendor/lib/libOmxQcelp13Dec.so|44698fe731f52e64f4646c6262c9b4adba3d807b
 vendor/lib/libOmxWmaDec.so|8d6749f293753020fe6dc2aa37cb9b2dbbafe8ed
-vendor/lib/liba2dpoffload.so|d533c2929ff579f7d04ab188d6dae7aaf8d8d899
+vendor/lib/liba2dpoffload.so:vendor/lib/liba2dpoffload_alioth.so;FIX_SONAME|77e768638b9fa6144f9a33f76e042cbb1b2b884e
 vendor/lib/libacdb-fts.so|c004ee5348c2098a2cc9ee9431e29dd4224a2f5f
 vendor/lib/libacdbloader.so|b0e18f5b43764fbe900233784105e7856b15e722
 vendor/lib/libacdbrtac.so|bd16054791ba75272957f62cd0b357df14bedc31
@@ -154,7 +154,7 @@ vendor/lib/libmulawdec.so|89ebb1d9e77911f1abe37405016839d8436a9825
 vendor/lib/libqtigef.so|3fba1e7a22a0b75be6bace643aaa8ead110c1233
 vendor/lib/libresampler.so|8edd3e46d46ad53469487f172219aec3a5a840b5
 vendor/lib/libsmwrapper.so|71a8166b84c4c9a06f1308370d23e68a1b243e0e
-vendor/lib/libssrec.so|8c5ec54e7f550fc68e6c6732e473f4649cf88e4e
+vendor/lib/libssrec.so:vendor/lib/libssrec_alioth.so;FIX_SONAME|0eaecec001f68b72310474c8841005ff3ca67d3e
 vendor/lib/libstagefright_soft_qtiflacdec.so|4e8d9ecb64fd90c95cd9700308e5aec6a952a38c
 vendor/lib/libsurround_3mic_proc.so|e8e086123e0c1dc17f008f97edb3611cd4c702e1
 vendor/lib/libtinycompress.so|e82e679d14a029e5f665a76ca07fe22d974d5133
