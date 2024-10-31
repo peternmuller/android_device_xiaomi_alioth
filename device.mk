@@ -212,6 +212,9 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.display.vds_allow_hwc=1 \
     debug.sf.disable_client_composition_cache=0
 
+PRODUCT_ODM_PROPERTIES += \
+    vendor.display.use_smooth_motion=0
+
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.set_idle_timer_ms=4000 \
     ro.surface_flinger.set_touch_timer_ms=4000 \
