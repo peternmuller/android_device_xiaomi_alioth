@@ -79,9 +79,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/mixer_paths_overlay_static.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_overlay_static.xml \
     $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/audio_policy_configuration.xml
 
-PRODUCT_PACKAGES += \
-    XiaomiDolby
-
 # Bluetooth
 PRODUCT_VENDOR_PROPERTIES += \
     persist.sys.fflag.override.settings_bluetooth_hearing_aid=true \
@@ -171,6 +168,11 @@ PRODUCT_PACKAGES += \
 
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
+
+# Device Settings
+PRODUCT_PACKAGES += \
+    XiaomiDolby \
+    XiaomiParts
 
 # Display
 PRODUCT_VENDOR_PROPERTIES += \
@@ -278,6 +280,7 @@ PRODUCT_PACKAGES += \
     AliothSettings \
     AliothSystemUI \
     AOSPAAliothFrameworks \
+    AOSPAAliothSettingsOverlay \
     AOSPAAliothSystemUI \
     SettingsOverlayM2012K11AG \
     SettingsOverlayM2012K11AI \
