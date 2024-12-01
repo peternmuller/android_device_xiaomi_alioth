@@ -268,6 +268,11 @@ PRODUCT_PACKAGES += \
     WifiOverlayM2012K11AG \
     WifiOverlayM2012K11AI
 
+# Protobuf
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full-3.9.1-vendorcompat \
+    libprotobuf-cpp-lite-3.9.1-vendorcompat
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
