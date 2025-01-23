@@ -134,7 +134,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
 PRODUCT_PACKAGES += \
-    libpiex_shim
+    libpiex_shim \
+    libutilscallstack.vendor
 
 # Cgroup and task_profiles
 PRODUCT_COPY_FILES += \
