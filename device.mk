@@ -337,7 +337,8 @@ SPAMMY_LOG_TAGS := \
     DisplayManagerService \
     DisplayModeController \
     FrameTracker \
-    QC2GrallocBuffer
+    QC2GrallocBuffer \
+    tftp_server
 
 ifneq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_VENDOR_PROPERTIES += \
