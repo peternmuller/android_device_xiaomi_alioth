@@ -202,7 +202,8 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.display.sensortype=2 \
     vendor.display.qdcm.mode_combine=1 \
     vendor.display.defer_fps_frame_count=2 \
-    vendor.display.vds_allow_hwc=1
+    vendor.display.vds_allow_hwc=1 \
+    debug.sf.disable_client_composition_cache=0
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.set_idle_timer_ms=4000 \
