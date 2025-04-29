@@ -214,7 +214,8 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     debug.hwui.skia_use_perfetto_track_events=false \
     debug.sf.treat_170m_as_sRGB=1 \
     debug.sf.hwc_hotplug_error_via_neg_vsync=1 \
-    debug.sf.hwc_hdcp_via_neg_vsync=1
+    debug.sf.hwc_hdcp_via_neg_vsync=1 \
+    ro.surface_flinger.enable_layer_caching=false
 
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.config.avoid_gfx_accel=true
