@@ -22,6 +22,7 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/bluetooth \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/battery \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/camera \
+    device/xiaomi/alioth/sepolicy/vendor/xiaomi/display \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/fingerprint \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/ir \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/modem \
@@ -36,4 +37,5 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
 
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/xiaomi/alioth/sepolicy/private/xiaomi/camera \
+    device/xiaomi/alioth/sepolicy/private/xiaomi/display \
     device/xiaomi/alioth/sepolicy/private/xiaomi/sensors
