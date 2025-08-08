@@ -1116,9 +1116,6 @@ vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib64/libtime_genoff.so
 
-# UBWC
-vendor/lib/libstreamparser.so
-
 # Vibrator - MIUI
 vendor/firmware/0_click_P_RTP.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
 vendor/firmware/1_doubelClick_P_RTP.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
