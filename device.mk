@@ -332,7 +332,8 @@ SPAMMY_LOG_TAGS := \
     vendor.qti.bluetooth@1.0-wake_lock \
     DisplayManagerService \
     DisplayModeController \
-    FrameTracker
+    FrameTracker \
+    QC2GrallocBuffer
 
 ifneq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_VENDOR_PROPERTIES += \

@@ -1,4 +1,4 @@
-# All the pinned blobs from MIUI are extracted from miui_ALIOTHGlobal_OS1.0.3.0.TKHMIXM_57a88631b9_13.0
+# All the pinned blobs from MIUI are extracted from miui_ALIOTHGlobal_OS1.0.3.0.TKHMIXM_57a88631b9_13.0 or from miui_MUNCHGlobal_OS1.0.9.0.ULMMIXM_7b798621ce_14.0
 # All the unpinned blobs are from extracted from LA.UM.9.12.r1-14400-SMxx50.QSSI12.0
 
 # ADSPRPC
@@ -723,6 +723,12 @@ vendor/bin/ks|2bcc675556cd146a8a785145f9d2caa1b659b185
 vendor/bin/mdm_helper_proxy|e7ba5764336a32454e4f8de6ff3e1a9c9c2a61bd
 vendor/bin/mdm_helper|aeb8aad56538231d57b7e945c918da39f0c19941
 vendor/lib64/libmdmimgload.so|5f9a20c24dd7f981eec4618769ef74ade0704d54
+
+# Media (Codec2) - MIUI (munch)
+vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy|9f6a77271971618b555d41d83e5c55f3cff684d2
+vendor/lib/libqcodec2_core.so|b92991b36af312411eb4779fea1a5c22550c1d56
+vendor/lib/libqcodec2_utils.so|485acb30246d20a1cfb0c91a9b3e185338d41d17
+vendor/lib/libqcodec2_v4l2codec.so|67057e81477e4b3432997b9d269e3db39c50e421
 
 # MMI
 vendor/bin/hw/vendor.qti.hardware.factory@1.0-service
