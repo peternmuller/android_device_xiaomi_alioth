@@ -338,7 +338,17 @@ SPAMMY_LOG_TAGS := \
     DisplayModeController \
     FrameTracker \
     QC2GrallocBuffer \
-    tftp_server
+    tftp_server \
+    LOWI-9.0.1.89.z \
+    wpa_supplicant \
+    InetDiagMessage \
+    QtiCarrierConfigHelper \
+    DeviceStatisticsService \
+    DeviceInfoHidlClient \
+    NearbyDiscovery \
+    NearbyPresence \
+    NearbySharing \
+    GmsClient
 
 ifneq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_VENDOR_PROPERTIES += \
