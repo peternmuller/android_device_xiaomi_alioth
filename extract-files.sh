@@ -64,8 +64,13 @@ function blob_fixup() {
             sed -i "s|/vendor/lib/liba2dpoffload\.so|liba2dpoffload_alioth\.so\x00\x00\x00\x00\x00|g" "${2}"
             sed -i "s|/vendor/lib/libssrec\.so|libssrec_alioth\.so\x00\x00\x00\x00\x00|g" "${2}"
             ;;
-        vendor/lib64/camera/components/com.mi.node.watermark.so )
-            $PATCHELF --add-needed "libpiex_shim.so" "${2}"
+        vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so)
+            [ "$2" = "" ] && return 0
+            "${SIGSCAN}" -p "9A 0A 00 94" -P "1F 20 03 D5" -f "${2}"
+            ;;
+        vendor/lib64/camera/components/com.mi.node.watermark.so)
+            [ "$2" = "" ] && return 0
+            grep -q "libpiex_shim.so" "${2}" || "${PATCHELF}" --add-needed "libpiex_shim.so" "${2}"
             ;;
         vendor/lib64/libwvhidl.so)
             [ "$2" = "" ] && return 0

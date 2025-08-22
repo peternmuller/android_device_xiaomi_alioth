@@ -255,7 +255,7 @@ vendor/lib64/camera/components/com.mi.node.rearvideo.so|7d71f5a762bc1d2a46fa7d3e
 vendor/lib64/camera/components/com.mi.node.skinbeautifier.so|9e79f99d0202db5da87e9a2de1b817fad55e7301
 vendor/lib64/camera/components/com.mi.node.superlowlightraw.so|f101209649e7b119e2e7ed52ba0836885a9ef6ae
 vendor/lib64/camera/components/com.mi.node.videobokeh.so|45d40fc62d25edfd55b250ef7899e4c384f8e46d
-vendor/lib64/camera/components/com.mi.node.watermark.so|abe149107d2dd51773467269308ba6af5cb7741c
+vendor/lib64/camera/components/com.mi.node.watermark.so|dbc01c6035e6c3b866bc06e6bb432c30e6de965a
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so|c9e902f92ffd43f11a863632a3e14b47e648660e
 vendor/lib64/camera/components/com.qti.eisv2.so|922283630dbb9cc40530b802941a3fbb27b49166
 vendor/lib64/camera/components/com.qti.eisv3.so|f0a0b0eb5f54f7eaaa38ab6f8aa2ce7cc3b42b94
@@ -469,9 +469,7 @@ vendor/lib64/libxmi_hdr_checker.so|3124e8cec5613e01fff7921d22a19888b3cebb8d
 vendor/lib64/libxmi_high_dynamic_range.so|03803efe0604454ff6fee39f4b4e9b189a83f144
 vendor/lib64/vendor.qti.hardware.camera.device@2.0.so|8c8e36a337718de47154baf4979936f2abf1d29c
 vendor/lib64/vendor.qti.hardware.camera.device@3.5.so|2c95532c8de8ae9bc61cd4d62963a4474ab717ee
-
-# Camera (postproc) - from LA.UM.9.14.r1-18400.02-LAHAINA.QSSI12.0
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|afeca01f1fc2619ddf1aada01d42735ab9efa682
+vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|8629ddc55445116852140a88c6d272683ac6bd49
 
 # Charger - MIUI
 vendor/bin/batterysecret|e495988b7619cffccb8e834d3d7c75fecb12b524
