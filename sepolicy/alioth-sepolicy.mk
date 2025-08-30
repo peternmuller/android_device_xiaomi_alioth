@@ -20,8 +20,8 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
 BOARD_VENDOR_SEPOLICY_DIRS += \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/audio \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/aware \
-    device/xiaomi/alioth/sepolicy/vendor/xiaomi/bluetooth \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/battery \
+    device/xiaomi/alioth/sepolicy/vendor/xiaomi/bluetooth \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/camera \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/display \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/fingerprint \
@@ -38,7 +38,10 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/wlan
 
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
+    device/xiaomi/alioth/sepolicy/private/xiaomi/art \
+    device/xiaomi/alioth/sepolicy/private/xiaomi/bootanim \
     device/xiaomi/alioth/sepolicy/private/xiaomi/camera \
+    device/xiaomi/alioth/sepolicy/private/xiaomi/dex2oat \
     device/xiaomi/alioth/sepolicy/private/xiaomi/display \
     device/xiaomi/alioth/sepolicy/private/xiaomi/hardware \
     device/xiaomi/alioth/sepolicy/private/xiaomi/sensors
