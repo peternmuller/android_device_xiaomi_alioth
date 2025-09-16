@@ -40,9 +40,11 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/xiaomi/alioth/sepolicy/private/xiaomi/art \
     device/xiaomi/alioth/sepolicy/private/xiaomi/bootanim \
+    device/xiaomi/alioth/sepolicy/private/xiaomi/boringssl \
     device/xiaomi/alioth/sepolicy/private/xiaomi/camera \
     device/xiaomi/alioth/sepolicy/private/xiaomi/dex2oat \
     device/xiaomi/alioth/sepolicy/private/xiaomi/display \
     device/xiaomi/alioth/sepolicy/private/xiaomi/hardware \
+    device/xiaomi/alioth/sepolicy/private/xiaomi/prng_seeder \
     device/xiaomi/alioth/sepolicy/private/xiaomi/sensors \
     device/xiaomi/alioth/sepolicy/private/xiaomi/vold
