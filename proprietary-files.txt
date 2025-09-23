@@ -21,18 +21,6 @@ vendor/lib64/libsysmon_cdsp_skel.so
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 
 # Adreno - MIUI
-vendor/firmware/a615_zap.b00|55c1a14a5699d05f796a982448711159f8208951
-vendor/firmware/a615_zap.b01|ee4cd063e8b2887edc5660b6da7d2efb935b9fa1
-vendor/firmware/a615_zap.b02|4ae54047f9629f2470a5d58f3940c5eb51298b96
-vendor/firmware/a615_zap.elf|9ccc18b2572767aef7091fe41c3a6c0edc76b3cf
-vendor/firmware/a615_zap.mdt|c7e10a5f37f0bf30c126dd1719d6d0899760e29a
-vendor/firmware/a619_gmu.bin|0c211ef8a3246d649a4ae52a926d128b61e3c264
-vendor/firmware/a620_zap.b00|8c20cfff20d7fe9814581b353c1f58d38636e8c5
-vendor/firmware/a620_zap.b01|14724b0e56ec586e9174fd3dc014ebb3a1dc581e
-vendor/firmware/a620_zap.b02|0403cd18344b2918106f73079b2bb8aa23928509
-vendor/firmware/a620_zap.elf|fefca48622d3d161d1d5ec7d59c06fc4d74c9803
-vendor/firmware/a620_zap.mdt|09cd850710f813a0a2675260f5cee3ebfcd2196a
-vendor/firmware/a630_sqe.fw|09a86618d0c8282bba3ed85774e9841fb3230826
 vendor/firmware/a650_gmu.bin|c744acb10afb7c980d333c5b6521e2a18993ff14
 vendor/firmware/a650_sqe.fw|130a0df5c562e69ab717867ebc0b7abf6f3bcb3f
 vendor/firmware/a650_zap.b00|8c20cfff20d7fe9814581b353c1f58d38636e8c5
