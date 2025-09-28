@@ -134,9 +134,11 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.qcom.bluetooth.soc=hastings \
     persist.vendor.qcom.bluetooth.twsp_state.enabled=false \
     ro.vendor.bluetooth.wipower=false \
-    vendor.bluetooth.soc=hastings \
     vendor.hw.fm.init=0 \
     vendor.qcom.bluetooth.soc=hastings
+
+PRODUCT_SYSTEM_PROPERTIES += \
+    vendor.bluetooth.soc=hastings
 
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aptxadaptiver2-aac-ldac \
